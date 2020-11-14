@@ -10,11 +10,11 @@
 # JavaEE WebApp
 This project was developed using Laravel Framework 8.11.2
 
-This project performs CRUD operation on a simple to Todo model 
+This project performs CRUD operations on a simple to Todo model 
  
   The attributes for the todo model are :
   
- * Un ID ( Integer ) -> using auto increment
+ * An ID ( Integer ) -> using auto increment
  * Name ( String ) -> use input
  * Completed ( Boolean ) user input 
  
