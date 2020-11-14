@@ -9,7 +9,10 @@
 
             </div>
             <div class="card-body">
+
                 <table class="table">
+                    @if(count($todos) > 0)
+
                     <thead class="table-dark">
                     <tr>
                         <td>id</td>
@@ -21,6 +24,7 @@
 
                     </thead>
                     <tbody>
+
                     @foreach($todos as $todo)
                         <tr>
                             <td>{{$todo ->id}}</td>
@@ -62,8 +66,13 @@
                         </tr>
                     @endforeach
                     </tbody>
-
+                    @else
+                        <h1 class="text-center">You haven't Created Any Todos Yet</h1>
+                    @endif
                 </table>
+
+
+
             </div>
         </div>
     </div>
@@ -105,7 +114,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form action="{{route('updateTodo',$todo->id)}}" method="post" id="updateForm">
+                <form action="{{route('updateTodo',isset($todo->id)?$todo->id:'')}}" method="post" id="updateForm">
                     @csrf
                     @method('put')
                     <div class="modal-body">

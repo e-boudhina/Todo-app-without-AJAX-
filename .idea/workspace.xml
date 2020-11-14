@@ -137,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CMS_2020" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -166,7 +166,7 @@
       <workItem from="1603892960850" duration="12000000" />
       <workItem from="1603969331531" duration="13955000" />
       <workItem from="1604068768571" duration="4077000" />
-      <workItem from="1605387865454" duration="1513000" />
+      <workItem from="1605387865454" duration="3931000" />
     </task>
     <servers />
   </component>
@@ -178,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
     <state x="690" y="273" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1038/1920.48.1280.984/-1024.38.1024.728@0.0.1920.1038" timestamp="1603972698557" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1604076160064">
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1605390891365">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1038/1920.48.1280.984/-1024.38.1024.728@0.0.1920.1038" timestamp="1604076160064" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1038/1920.48.1280.984/-1024.38.1024.728@0.0.1920.1038" timestamp="1605390891365" />
     <state x="697" y="241" key="NewPhpClassDialog" timestamp="1603979565511">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
