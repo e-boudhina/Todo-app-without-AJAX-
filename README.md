@@ -15,7 +15,7 @@ This project performs CRUD operations on a simple to Todo model
   The attributes for the todo model are :
   
  * An ID ( Integer ) -> using auto increment
- * Name ( String ) -> use input
+ * Name ( String ) -> user input
  * Completed ( Boolean ) user input 
  
  After you set the the environment file (.env) :
