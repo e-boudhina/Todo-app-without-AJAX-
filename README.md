@@ -7,3 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# JavaEE WebApp
+This project was developed using Laravel Framework 8.11.2
+
+This project performs CRUD operation on a simple to Todo model 
+ 
+  The attributes for the todo model are :
+  
+ * Un ID ( Integer ) -> using auto increment
+ * Name ( String ) -> use input
+ * Completed ( Boolean ) user input 
+ 
+ After you set the the environment file (.env) :
+ 
+ Execute the command:
+ * php artisan migrate --seed : to seed the default user and add 10 todo examples.
